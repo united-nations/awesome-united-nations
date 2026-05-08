@@ -30,7 +30,7 @@
 
 Organization | Full Name | Repos | Stars | Commits (1m) | Link
 ---|---|---|---|---|---
-**UN Secretariat** |  | 4 | 2 | 7 | [:octocat:](https://github.com/united-nations)
+**UN Secretariat** |  | 4 | 2 | 8 | [:octocat:](https://github.com/united-nations)
 OCHA | Office for the Coordination of Humanitarian Affairs | 431 | 150 | 471 | [:octocat:](https://github.com/UN-OCHA)
 &nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | 495 | 480 | 699 | [:octocat:](https://github.com/ocha-dap)
 UNEP | UN Environment Programme | 8 | 0 | 0 | [:octocat:](https://github.com/UNEP)
@@ -46,7 +46,7 @@ UNDP | UN Development Programme | 54 | 277 | 60 | [:octocat:](https://github.com
 UNFPA | UN Population Fund | 19 | 6 | 0 | [:octocat:](https://github.com/UNFPAInnovation)
 **Specialized Agencies** |  |  |  |  | 
 WHO | World Health Organization | 181 | 2,651 | 786 | [:octocat:](https://github.com/WorldHealthOrganization)
-FAO | Food and Agriculture Organization | 31 | 29 | 1,477 | [:octocat:](https://github.com/UN-FAO)
+FAO | Food and Agriculture Organization | 31 | 29 | 1,479 | [:octocat:](https://github.com/UN-FAO)
 ILO | International Labour Organization | 3 | 5 | 19 | [:octocat:](https://github.com/international-labour-organization)
 UNESCO | UN Educational, Scientific and Cultural Organization | 7 | 1 | 6 | [:octocat:](https://github.com/unesco)
 UNIDO | UN Industrial Development Organization | 1 | 3 | 0 | [:octocat:](https://github.com/unido)
@@ -67,7 +67,7 @@ UNHCR | UN High Commissioner for Refugees | 36 | 186 | 0 | [:octocat:](https://g
 UNHCR DataViz |  | 18 | 101 | 0 | [:octocat:](https://github.com/unhcr-dataviz)
 UNOPS | UN Office for Project Services | 36 | 36 | 0 | [:octocat:](https://github.com/UNOPS)
 UNAIDS | Joint UN Programme on HIV/AIDS | 2 | 0 | 0 | [:octocat:](https://github.com/UNAIDS)
-UNU | UN University | 2 | 0 | 0 | [:octocat:](https://github.com/UNU-Macau)
+UNU | UN University | - | - | - | [:octocat:](https://github.com/UNU-Macau)
 
 ## Design Systems & UI Components 🎨
 
