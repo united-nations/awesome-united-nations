@@ -16,7 +16,6 @@ OCHA | Office for the Coordination of Humanitarian Affairs | https://github.com/
 &nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | https://github.com/ocha-dap
 UNEP | UN Environment Programme | https://github.com/UNEP
 &nbsp;&nbsp;&nbsp;&nbsp; WCMC | World Conservation Monitoring Centre | https://github.com/unepwcmc
-OHCHR | Office of the High Commissioner for Human Rights | https://github.com/unhcr
 DGC | Department for Global Communications |
 &nbsp;&nbsp;&nbsp;&nbsp; DHL | Dag Hammarsköld Library | https://github.com/dag-hammarskjold-library
 OICT | Office of Information and Communications Technology | https://opensource.unicc.org/un/unoict
@@ -26,7 +25,6 @@ WFP | World Food Programme | https://github.com/wfp
 UNICEF | UN Children's Fund | https://github.com/unicef
 UNDP | UN Development Programme | https://github.com/undp
 UNFPA | UN Population Fund | https://github.com/UNFPAInnovation
-UNV | UN Volunteers | https://github.com/United-Nations-Volunteers
 **Specialized Agencies** | |
 WHO | World Health Organization | https://github.com/WorldHealthOrganization
 FAO | Food and Agriculture Organization | https://github.com/UN-FAO
@@ -51,3 +49,99 @@ UNHCR DataViz | | https://github.com/unhcr-dataviz
 UNOPS | UN Office for Project Services | https://github.com/UNOPS
 UNAIDS | Joint UN Programme on HIV/AIDS | https://github.com/UNAIDS
 UNU | UN University | https://github.com/UNU-Macau
+
+## Design Systems & UI Components
+
+- [UNDP Design System](https://github.com/undp/design-system)
+- [UNDP Design System Starter Template](https://github.com/undp/design-system-starter-template)
+- [UNDP Design System for React](https://github.com/undp/undp-ui-library)
+- [WFP Design System](https://github.com/wfp/designsystem)
+- [OCHA Design System](https://github.com/UN-OCHA/common_design)
+- [OCHA Humanitarian Icons](https://github.com/UN-OCHA/humanitarian-icons)
+- [UNHCR Humanitarian Font](https://github.com/unhcr/Humanitarian-Font)
+- [UNICEF Design System](https://github.com/unicef/design-system)
+- [UNICEF Material UI](https://github.com/unicef/unicef-material-ui)
+- [UNICEF React Org Chart](https://github.com/unicef/react-org-chart)
+- [ILO Design System](https://github.com/international-labour-organization/designsystem)
+- [ILO Design System Drupal Theme](https://github.com/international-labour-organization/ilo_base_theme)
+
+## Data Visualization
+
+### Libraries and Themes
+
+- [UNDP Data Viz Library](https://github.com/undp/data-visualization)
+- [UNHCR Streamgraph Explorer](https://github.com/unhcr/dataviz-streamgraph-explorer)
+- [IOM Map/Globe Animations](https://github.com/iom/animations)
+- themes for the R / Python / Markdown notebook universe:
+  - [UNHCR: R Markdown](https://github.com/unhcr-dataviz/unhcrdown)
+  - [UNHCR: Quarto/HTML](https://github.com/unhcr-dataviz/quarto-html-unhcr)
+  - [UNHCR: Quarto/RevealJS](https://github.com/unhcr-dataviz/quarto-revealjs-unhcr)
+  - [IOM: Quarto](https://github.com/iom/iomquarto)
+  - [IOM: Shiny](https://github.com/iom/iomshiny)
+- ggplot2 themes:
+    - [Humanitarian Data Exchange](https://github.com/OCHA-DAP/gghdx)
+    - [UNHCR](https://github.com/unhcr-dataviz/unhcrthemes)
+    - [IOM](https://github.com/iom/iomthemes)
+- [IOM: matplotlib](https://github.com/iom/iompyplotstyle)
+
+### Showcases
+
+- UNHCR
+    - [Visualizations showcase](https://github.com/unhcr-dataviz/dataviz-lab)
+    - [30 day charts challenge 2023](https://github.com/unhcr-dataviz/30DayChartChallenge2023)
+    - [Displaced persons](https://github.com/unhcr/dataviz-popstats)
+    - [Refugee populations](https://github.com/unhcr/dataviz-population-change)
+    - [Items distributions in Nepal](https://github.com/unhcr/dataviz-nepal-earthquake-distributions)
+- IOM
+  - [Displaced persons](https://github.com/iom/dp-dashboard)
+  - [Missing migrants](https://github.com/iom/missing-migrants-graphic)
+- EOSG
+  - [UN Secretariat Regular Budget 2025](https://github.com/UN-EOSG-Analytics/un-budget-explorer)
+
+
+## APIs
+
+- [Humanitarian Data Exchange API](https://github.com/OCHA-DAP/hdx-hapi)
+- [Humanitarian Data Exchange Python API](https://github.com/OCHA-DAP/hdx-python-api)
+- [Go.Data R API](https://github.com/WorldHealthOrganization/godataR)
+
+
+## Tools and Utilities
+
+- [UN Resolution History Diff Viewer](https://github.com/UN-EOSG-Analytics/undifferent)
+- [Python Library Mapping Country and region codes](https://github.com/OCHA-DAP/hdx-python-country)
+
+## Website Sources
+
+- [mandates.un.org](https://github.com/UN-EOSG-Analytics/un-mandate-registry)
+- [un80actions.un.org](https://github.com/UN-EOSG-Analytics/un80-actions)
+- [metadata.un.org](https://github.com/dag-hammarskjold-library/metadata-un-org)
+- [open.undp.org](https://github.com/undp/transparencyportal)
+- [untp.unece.org](https://opensource.unicc.org/un/unece/uncefact/spec-untp)
+- [jtson.unhcr.org](https://github.com/unhcr/Jetson)
+- [protectedplanet.net](https://github.com/unepwcmc/ProtectedPlanet)
+- [compass.crafd.io](https://github.com/UN-CRAFd/crafd-crisis-data-funding-compass)
+
+## Community
+
+- [OICT Google Summer of Code 2026](https://opensource.unicc.org/un/unoict/mentorship-programme/google-summer-of-code)
+- [WHO Open Source Communication Channel](https://github.com/WorldHealthOrganization/open-source-communication-channel)
+
+<!-- 
+### Actual cool projects
+
+- unep
+- ocha
+- unicef
+- who
+- fao
+- imhcr -->
+<!-- 
+
+### stuff
+
+https://github.com/rix1/unvote
+https://codeberg.org/seanfobbe/cr-unsc 
+TODO: check email!
+
+-->
