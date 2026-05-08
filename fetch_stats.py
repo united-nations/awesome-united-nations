@@ -89,16 +89,32 @@ def _is_separator_row(cells: list[str]) -> bool:
     return len(cells) >= 2 and all(re.fullmatch(r"-+", c) for c in cells if c)
 
 
+def _extract_url(cell: str) -> str:
+    """Strip [:octocat:](url) formatting back to a raw URL."""
+    m = re.match(r'\[:octocat:\]\(([^)]+)\)', cell.strip())
+    return m.group(1).strip() if m else cell.strip()
+
+
 def parse_table(table_text: str) -> list[dict]:
     rows = []
+    link_col = 2  # default: old format (Org | Full Name | Link | ...)
     for i, line in enumerate(ln for ln in table_text.splitlines() if ln.strip()):
         cells = _split_row(line)
         if _is_separator_row(cells):
             row_type, cells = "separator", []
         elif i == 0:
-            row_type, cells = "header", cells[:3]
+            row_type = "header"
+            # Detect new format (Link is last col): Org | Full Name | Repos | Stars | Commits | Link
+            if len(cells) == 6 and cells[5].strip().lower() == "link":
+                link_col = 5
+            cells = [cells[0], cells[1], "Link"]
         else:
-            row_type, cells = "data", cells[:3]
+            row_type = "data"
+            if len(cells) == 6:
+                raw_link = _extract_url(cells[link_col])
+                cells = [cells[0], cells[1], raw_link]
+            else:
+                cells = [cells[0], cells[1], _extract_url(cells[2]) if len(cells) > 2 else ""]
         rows.append({"type": row_type, "cells": cells})
     return rows
 
@@ -201,7 +217,7 @@ def fetch_all_stats(rows: list[dict]) -> list[dict]:
             row["stats"] = None
             continue
         if len(row["cells"]) < 3:
-            row["stats"] = ("-", "-", "-")
+            row["stats"] = ("", "", "")
             continue
 
         link_type, org = classify_link(row["cells"][2])
@@ -212,7 +228,7 @@ def fetch_all_stats(rows: list[dict]) -> list[dict]:
             row["stats"] = (format_number(n_repos), format_number(stars), format_number(commits))
             time.sleep(0.5)
         else:
-            row["stats"] = ("-", "-", "-")
+            row["stats"] = ("", "", "")
 
     return rows
 
@@ -229,18 +245,26 @@ def format_number(n: int) -> str:
     return f"{n / 1_000_000:.1f}M"
 
 
+def _format_link(url: str) -> str:
+    url = url.strip()
+    if not url:
+        return ""
+    return f"[:octocat:]({url})"
+
+
 def serialize_table(rows: list[dict]) -> str:
     lines = []
     for row in rows:
         if row["type"] == "separator":
             lines.append("---|---|---|---|---|---")
         elif row["type"] == "header":
-            lines.append(" | ".join(row["cells"] + ["Repos", "Stars", "Commits (1m)"]))
+            org, full_name, _ = (row["cells"] + ["", "", ""])[:3]
+            lines.append(" | ".join([org, full_name, "Repos", "Stars", "Commits (1m)", "Link"]))
         else:
-            cells = list(row["cells"])
-            while len(cells) < 3:
-                cells.append("")
-            lines.append(" | ".join(cells + list(row["stats"])))
+            cells = (list(row["cells"]) + ["", "", ""])[:3]
+            org, full_name, link = cells
+            stats = list(row["stats"])
+            lines.append(" | ".join([org, full_name] + stats + [_format_link(link)]))
     return "\n".join(lines)
 
 
