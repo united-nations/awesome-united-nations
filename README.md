@@ -28,46 +28,46 @@
 
 ## UN Organizations with Open Source Repositories 🏛️
 
-Organization | Full Name | Link
----|---|---
-**UN Secretariat** | | https://github.com/united-nations
-OCHA | Office for the Coordination of Humanitarian Affairs | https://github.com/UN-OCHA
-&nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | https://github.com/ocha-dap
-UNEP | UN Environment Programme | https://github.com/UNEP
-&nbsp;&nbsp;&nbsp;&nbsp; WCMC | World Conservation Monitoring Centre | https://github.com/unepwcmc
-DGC | Department for Global Communications |
-&nbsp;&nbsp;&nbsp;&nbsp; DHL | Dag Hammarsköld Library | https://github.com/dag-hammarskjold-library
-OICT | Office of Information and Communications Technology | https://opensource.unicc.org/un/unoict
-EOSG | Executive Office of the Secretary-General | https://github.com/un-eosg-analytics
-**Funds and Programmes** | |
-WFP | World Food Programme | https://github.com/wfp
-UNICEF | UN Children's Fund | https://github.com/unicef
-UNDP | UN Development Programme | https://github.com/undp
-UNFPA | UN Population Fund | https://github.com/UNFPAInnovation
-**Specialized Agencies** | |
-WHO | World Health Organization | https://github.com/WorldHealthOrganization
-FAO | Food and Agriculture Organization | https://github.com/UN-FAO
-ILO | International Labour Organization | https://github.com/international-labour-organization
-UNESCO | UN Educational, Scientific and Cultural Organization | https://github.com/unesco
-UNIDO | UN Industrial Development Organization | https://github.com/unido
-ITU | International Telecommunication Union | https://github.com/International-Telecommunication-Union
-ICAO | International Civil Aviation Organization | https://github.com/innovation4aviation
-IFAD | International Fund for Agricultural Development | https://github.com/ifad
-WMO | World Meteorological Organization | https://github.com/World-Meteorological-Organization
-**Regional Commissions** | |
-ECE | Economic Commission for Europe | https://opensource.unicc.org/un/unece
-ECA | Economic Commission for Africa | https://github.com/tech-acs
-**Related Organizations** | |
-IOM | International Organization for Migration | https://github.com/iom
-IAEA | International Atomic Energy Agency | https://github.com/IAEAOrg
-UN-ICC | International Computing Centre | https://github.com/UN-ICC
-CRAF'd | Complex Risk Analytics Fund | https://github.com/UN-CRAFd
-**Other entities** | |
-UNHCR | UN High Commissioner for Refugees | https://github.com/unhcr
-UNHCR DataViz | | https://github.com/unhcr-dataviz
-UNOPS | UN Office for Project Services | https://github.com/UNOPS
-UNAIDS | Joint UN Programme on HIV/AIDS | https://github.com/UNAIDS
-UNU | UN University | https://github.com/UNU-Macau
+Organization | Full Name | Link | Repos | Stars | Commits (1m)
+---|---|---|---|---|---
+**UN Secretariat** |  | https://github.com/united-nations | 4 | 2 | 7
+OCHA | Office for the Coordination of Humanitarian Affairs | https://github.com/UN-OCHA | 431 | 150 | 471
+&nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | https://github.com/ocha-dap | 495 | 480 | 699
+UNEP | UN Environment Programme | https://github.com/UNEP | 8 | 0 | 0
+&nbsp;&nbsp;&nbsp;&nbsp; WCMC | World Conservation Monitoring Centre | https://github.com/unepwcmc | 182 | 153 | 27
+DGC | Department for Global Communications |  | - | - | -
+&nbsp;&nbsp;&nbsp;&nbsp; DHL | Dag Hammarsköld Library | https://github.com/dag-hammarskjold-library | 91 | 13 | 51
+OICT | Office of Information and Communications Technology | https://opensource.unicc.org/un/unoict | - | - | -
+EOSG | Executive Office of the Secretary-General | https://github.com/un-eosg-analytics | 11 | 10 | 239
+**Funds and Programmes** |  |  | - | - | -
+WFP | World Food Programme | https://github.com/wfp | 9 | 249 | 0
+UNICEF | UN Children's Fund | https://github.com/unicef | 289 | 1,177 | 639
+UNDP | UN Development Programme | https://github.com/undp | 54 | 277 | 60
+UNFPA | UN Population Fund | https://github.com/UNFPAInnovation | 19 | 6 | 0
+**Specialized Agencies** |  |  | - | - | -
+WHO | World Health Organization | https://github.com/WorldHealthOrganization | 181 | 2,651 | 786
+FAO | Food and Agriculture Organization | https://github.com/UN-FAO | 31 | 29 | 1,477
+ILO | International Labour Organization | https://github.com/international-labour-organization | 3 | 5 | 19
+UNESCO | UN Educational, Scientific and Cultural Organization | https://github.com/unesco | 7 | 1 | 6
+UNIDO | UN Industrial Development Organization | https://github.com/unido | 1 | 3 | 0
+ITU | International Telecommunication Union | https://github.com/International-Telecommunication-Union | 6 | 0 | 0
+ICAO | International Civil Aviation Organization | https://github.com/innovation4aviation | 14 | 0 | 0
+IFAD | International Fund for Agricultural Development | https://github.com/ifad | 128 | 708 | 7
+WMO | World Meteorological Organization | https://github.com/World-Meteorological-Organization | 23 | 117 | 31
+**Regional Commissions** |  |  | - | - | -
+ECE | Economic Commission for Europe | https://opensource.unicc.org/un/unece | - | - | -
+ECA | Economic Commission for Africa | https://github.com/tech-acs | 86 | 15 | 32
+**Related Organizations** |  |  | - | - | -
+IOM | International Organization for Migration | https://github.com/iom | 31 | 11 | 0
+IAEA | International Atomic Energy Agency | https://github.com/IAEAOrg | 3 | 74 | 0
+UN-ICC | International Computing Centre | https://github.com/UN-ICC | 24 | 12 | 0
+CRAF'd | Complex Risk Analytics Fund | https://github.com/UN-CRAFd | 3 | 6 | 8
+**Other entities** |  |  | - | - | -
+UNHCR | UN High Commissioner for Refugees | https://github.com/unhcr | 36 | 186 | 0
+UNHCR DataViz |  | https://github.com/unhcr-dataviz | 18 | 101 | 0
+UNOPS | UN Office for Project Services | https://github.com/UNOPS | 36 | 36 | 0
+UNAIDS | Joint UN Programme on HIV/AIDS | https://github.com/UNAIDS | 2 | 0 | 0
+UNU | UN University | https://github.com/UNU-Macau | 2 | 0 | 0
 
 ## Design Systems & UI Components 🎨
 
