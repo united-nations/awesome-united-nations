@@ -30,33 +30,33 @@
 
 Organization | Full Name | Repos | Stars | Commits (1m) | Link
 ---|---|---|---|---|---
-**UN Secretariat** |  | 4 | 2 | 8 | [:octocat:](https://github.com/united-nations)
-OCHA | Office for the Coordination of Humanitarian Affairs | 431 | 150 | 471 | [:octocat:](https://github.com/UN-OCHA)
-&nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | 495 | 480 | 699 | [:octocat:](https://github.com/ocha-dap)
+**UN Secretariat** |  | 4 | 2 | 10 | [:octocat:](https://github.com/united-nations)
+OCHA | Office for the Coordination of Humanitarian Affairs | 431 | 150 | 442 | [:octocat:](https://github.com/UN-OCHA)
+&nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | 496 | 481 | 683 | [:octocat:](https://github.com/ocha-dap)
 UNEP | UN Environment Programme | 8 | 0 | 0 | [:octocat:](https://github.com/UNEP)
-&nbsp;&nbsp;&nbsp;&nbsp; WCMC | World Conservation Monitoring Centre | 182 | 153 | 27 | [:octocat:](https://github.com/unepwcmc)
+&nbsp;&nbsp;&nbsp;&nbsp; WCMC | World Conservation Monitoring Centre | 182 | 153 | 33 | [:octocat:](https://github.com/unepwcmc)
 DGC | Department for Global Communications |  |  |  | 
 &nbsp;&nbsp;&nbsp;&nbsp; DHL | Dag Hammarsköld Library | 91 | 13 | 51 | [:octocat:](https://github.com/dag-hammarskjold-library)
 OICT | Office of Information and Communications Technology |  |  |  | [:octocat:](https://opensource.unicc.org/un/unoict)
-EOSG | Executive Office of the Secretary-General | 11 | 10 | 239 | [:octocat:](https://github.com/un-eosg-analytics)
+EOSG | Executive Office of the Secretary-General | 11 | 10 | 204 | [:octocat:](https://github.com/un-eosg-analytics)
 **Funds and Programmes** |  |  |  |  | 
 WFP | World Food Programme | 9 | 249 | 0 | [:octocat:](https://github.com/wfp)
-UNICEF | UN Children's Fund | 289 | 1,177 | 639 | [:octocat:](https://github.com/unicef)
-UNDP | UN Development Programme | 54 | 277 | 60 | [:octocat:](https://github.com/undp)
+UNICEF | UN Children's Fund | 289 | 1,180 | 607 | [:octocat:](https://github.com/unicef)
+UNDP | UN Development Programme | 54 | 277 | 53 | [:octocat:](https://github.com/undp)
 UNFPA | UN Population Fund | 19 | 6 | 0 | [:octocat:](https://github.com/UNFPAInnovation)
 **Specialized Agencies** |  |  |  |  | 
-WHO | World Health Organization | 181 | 2,651 | 786 | [:octocat:](https://github.com/WorldHealthOrganization)
-FAO | Food and Agriculture Organization | 31 | 29 | 1,479 | [:octocat:](https://github.com/UN-FAO)
+WHO | World Health Organization | 181 | 2,653 | 755 | [:octocat:](https://github.com/WorldHealthOrganization)
+FAO | Food and Agriculture Organization | 31 | 29 | 1,472 | [:octocat:](https://github.com/UN-FAO)
 ILO | International Labour Organization | 3 | 5 | 19 | [:octocat:](https://github.com/international-labour-organization)
 UNESCO | UN Educational, Scientific and Cultural Organization | 7 | 1 | 6 | [:octocat:](https://github.com/unesco)
 UNIDO | UN Industrial Development Organization | 1 | 3 | 0 | [:octocat:](https://github.com/unido)
 ITU | International Telecommunication Union | 6 | 0 | 0 | [:octocat:](https://github.com/International-Telecommunication-Union)
 ICAO | International Civil Aviation Organization | 14 | 0 | 0 | [:octocat:](https://github.com/innovation4aviation)
 IFAD | International Fund for Agricultural Development | 128 | 708 | 7 | [:octocat:](https://github.com/ifad)
-WMO | World Meteorological Organization | 23 | 117 | 31 | [:octocat:](https://github.com/World-Meteorological-Organization)
+WMO | World Meteorological Organization | 23 | 117 | 32 | [:octocat:](https://github.com/World-Meteorological-Organization)
 **Regional Commissions** |  |  |  |  | 
 ECE | Economic Commission for Europe |  |  |  | [:octocat:](https://opensource.unicc.org/un/unece)
-ECA | Economic Commission for Africa | 86 | 15 | 32 | [:octocat:](https://github.com/tech-acs)
+ECA | Economic Commission for Africa | 86 | 15 | 30 | [:octocat:](https://github.com/tech-acs)
 **Related Organizations** |  |  |  |  | 
 IOM | International Organization for Migration | 31 | 11 | 0 | [:octocat:](https://github.com/iom)
 IAEA | International Atomic Energy Agency | 3 | 74 | 0 | [:octocat:](https://github.com/IAEAOrg)
@@ -67,7 +67,7 @@ UNHCR | UN High Commissioner for Refugees | 36 | 186 | 0 | [:octocat:](https://g
 UNHCR DataViz |  | 18 | 101 | 0 | [:octocat:](https://github.com/unhcr-dataviz)
 UNOPS | UN Office for Project Services | 36 | 36 | 0 | [:octocat:](https://github.com/UNOPS)
 UNAIDS | Joint UN Programme on HIV/AIDS | 2 | 0 | 0 | [:octocat:](https://github.com/UNAIDS)
-UNU | UN University | - | - | - | [:octocat:](https://github.com/UNU-Macau)
+UNU | UN University | 2 | 0 | 0 | [:octocat:](https://github.com/UNU-Macau)
 
 ## Design Systems & UI Components 🎨
 
