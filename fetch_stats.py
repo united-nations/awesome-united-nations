@@ -90,8 +90,8 @@ def _is_separator_row(cells: list[str]) -> bool:
 
 
 def _extract_url(cell: str) -> str:
-    """Strip [:octocat:](url) formatting back to a raw URL."""
-    m = re.match(r'\[:octocat:\]\(([^)]+)\)', cell.strip())
+    """Strip [...](url) markdown link formatting back to a raw URL."""
+    m = re.match(r'\[[^\]]*\]\(([^)]+)\)', cell.strip())
     return m.group(1).strip() if m else cell.strip()
 
 
@@ -249,7 +249,11 @@ def _format_link(url: str) -> str:
     url = url.strip()
     if not url:
         return ""
-    return f"[:octocat:]({url})"
+    link_type, org = classify_link(url)
+    if link_type == "github" and org:
+        return f"[@{org}]({url})"
+    slug = url.rstrip("/").rsplit("/", 1)[-1]
+    return f"[@{slug}]({url})" if slug else f"[link]({url})"
 
 
 def serialize_table(rows: list[dict]) -> str:
@@ -259,12 +263,12 @@ def serialize_table(rows: list[dict]) -> str:
             lines.append("---|---|---|---|---|---")
         elif row["type"] == "header":
             org, full_name, _ = (row["cells"] + ["", "", ""])[:3]
-            lines.append(" | ".join([org, full_name, "Repos", "Stars", "Commits (1m)", "Link"]))
+            lines.append(" | ".join([org, full_name, "Link", "Repos", "Stars", "Commits last month"]))
         else:
             cells = (list(row["cells"]) + ["", "", ""])[:3]
             org, full_name, link = cells
             stats = list(row["stats"])
-            lines.append(" | ".join([org, full_name] + stats + [_format_link(link)]))
+            lines.append(" | ".join([org, full_name, _format_link(link)] + stats))
     return "\n".join(lines)
 
 
