@@ -33,6 +33,8 @@ Organization | Full Name | Link | Repos | Stars | Commits last month
 **UN Secretariat** |  | [@united-nations](https://github.com/united-nations) | 7 | 6 | 176
 OCHA | Office for the Coordination of Humanitarian Affairs | [@UN-OCHA](https://github.com/UN-OCHA) | 432 | 150 | 949
 &nbsp;&nbsp;&nbsp;&nbsp; HDX | Humanitarian Data Exchange | [@ocha-dap](https://github.com/ocha-dap) | 515 | 492 | 850
+DESA | Department of Economic and Social Affairs |  |  |  | 
+&nbsp;&nbsp;&nbsp;&nbsp; UNSD | UN Statistics Division | [@UNStats](https://github.com/UNStats) |  |  |
 UNEP | UN Environment Programme | [@UNEP](https://github.com/UNEP) | - | - | -
 &nbsp;&nbsp;&nbsp;&nbsp; WCMC | World Conservation Monitoring Centre | [@unepwcmc](https://github.com/unepwcmc) | - | - | -
 DGC | Department for Global Communications |  |  |  | 
