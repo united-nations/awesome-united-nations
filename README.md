@@ -56,6 +56,7 @@ ITU | International Telecommunication Union | [@International-Telecommunication-
 ICAO | International Civil Aviation Organization | [@innovation4aviation](https://github.com/innovation4aviation) | 14 | 0 | 0
 IFAD | International Fund for Agricultural Development | [@ifad](https://github.com/ifad) | 127 | 708 | 8
 WMO | World Meteorological Organization | [@World-Meteorological-Organization](https://github.com/World-Meteorological-Organization) | 24 | 120 | 32
+&nbsp;&nbsp;&nbsp;&nbsp; WMO RAF | WMO Regional Office for Africa | [@wmo-raf](https://github.com/wmo-raf) | | | 
 **Regional Commissions** |  |  |  |  | 
 ECE | Economic Commission for Europe | [@unece](https://opensource.unicc.org/un/unece) |  |  | 
 ECA | Economic Commission for Africa | [@tech-acs](https://github.com/tech-acs) | 88 | 15 | 118
@@ -134,6 +135,7 @@ UNU | UN University | [@UNU-Macau](https://github.com/UNU-Macau) | 2 | 0 | 0
 
 ## Website Sources 🌍
 
+- [transcripts.un.org](https://github.com/united-nations/transcripts)
 - [mandates.un.org](https://github.com/united-nations/mandates)
 - [un80actions.un.org](https://github.com/UN-EOSG-Analytics/un80-actions)
 - [metadata.un.org](https://github.com/dag-hammarskjold-library/metadata-un-org)
