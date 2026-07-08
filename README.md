@@ -1,7 +1,6 @@
 # Awesome United Nations 🇺🇳
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![WIP](https://img.shields.io/badge/status-work%20in%20progress-yellow)](https://github.com/davidpomerenke/awesome-united-nations)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen)](#contributing-)
 
 > A curated list of open source projects, tools, and resources from the United Nations system.
