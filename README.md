@@ -67,7 +67,7 @@ UN-ICC | International Computing Centre | [@UN-ICC](https://github.com/UN-ICC) |
 CRAF'd | Complex Risk Analytics Fund | [@UN-CRAFd](https://github.com/UN-CRAFd) | 3 | 6 | 0
 **Other entities** |  |  |  |  | 
 UNHCR | UN High Commissioner for Refugees | [@unhcr](https://github.com/unhcr) | 36 | 186 | 10
-UNHCR DataViz |  | [@unhcr-dataviz](https://github.com/unhcr-dataviz) | 19 | 101 | 0
+&nbsp;&nbsp;&nbsp;&nbsp; UNHCR DataViz | UNHCR Data Visualizations | [@unhcr-dataviz](https://github.com/unhcr-dataviz) | 19 | 101 | 0
 UNOPS | UN Office for Project Services | [@UNOPS](https://github.com/UNOPS) | 36 | 37 | 38
 UNAIDS | Joint UN Programme on HIV/AIDS | [@UNAIDS](https://github.com/UNAIDS) | 2 | 1 | 0
 UNU | UN University | [@UNU-Macau](https://github.com/UNU-Macau) | 2 | 0 | 0
@@ -142,6 +142,7 @@ UNU | UN University | [@UNU-Macau](https://github.com/UNU-Macau) | 2 | 0 | 0
 - [open.undp.org](https://github.com/undp/transparencyportal)
 - [untp.unece.org](https://opensource.unicc.org/un/unece/uncefact/spec-untp)
 - [jtson.unhcr.org](https://github.com/unhcr/Jetson)
+- [diplomaticpulse.org](https://github.com/qcri/DiplomaticPulse)
 - [protectedplanet.net](https://github.com/unepwcmc/ProtectedPlanet)
 - [compass.crafd.io](https://github.com/UN-CRAFd/crafd-crisis-data-funding-compass)
 
